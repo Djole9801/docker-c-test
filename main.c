@@ -5,5 +5,5 @@ int main() {
   int b = 5;
   printf("Zbir je %d\n", a+b);
 
-  return 0
+  return 0;
 }
