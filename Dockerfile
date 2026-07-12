@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY main.c .
 
-RUN gcc main.c-o program
+RUN gcc main.c -o program
 
 CMD ["./program"]
